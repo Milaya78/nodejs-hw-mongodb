@@ -22,7 +22,6 @@ export const createContactSchema = Joi.object({
   contactType: Joi.string()
     .valid('work', 'home', 'personal')
     .default('personal')
-    .required()
     .messages({
       'string.base': 'Contact type should be a string',
       'any.only':
