@@ -1,11 +1,9 @@
 {
   "web": {
-    "client_id": "791929006029-unh95sl2d2sasfqn4pj556jtod6smpgv.apps.googleusercontent.com",
     "project_id": "contacts-app-448508",
     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
     "token_uri": "https://oauth2.googleapis.com/token",
     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-    "client_secret": "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",
     "redirect_uris": ["http://localhost:3000/confirm-google-auth"]
   }
 }
