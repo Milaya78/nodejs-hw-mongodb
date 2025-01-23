@@ -38,7 +38,7 @@ export const getContactsController = async (req, res) => {
   });
 };
 
-export const getContactByIdController = async (req, res, next) => {
+export const getContactByIdController = async (req, res) => {
   const { contactId } = req.params;
   const userId = req.user._id;
 
@@ -78,7 +78,7 @@ export const createContactController = async (req, res) => {
   });
 };
 
-export const deleteContactController = async (req, res, next) => {
+export const deleteContactController = async (req, res) => {
   const { contactId } = req.params;
   const userId = req.user._id;
 
@@ -91,7 +91,7 @@ export const deleteContactController = async (req, res, next) => {
   res.status(204).send();
 };
 
-export const patchContactController = async (req, res, next) => {
+export const patchContactController = async (req, res) => {
   const { contactId } = req.params;
   const userId = req.user._id;
 
